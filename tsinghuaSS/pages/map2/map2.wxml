@@ -1,0 +1,10 @@
+<!--pages/demo/demo.wxml-->
+<import src="../../components/simplemap/simplemap.wxml"/>
+<cover-view class="modalDlg" wx:if="{{showModal}}" bindtap="ok">
+<!-- 二维码或其他图片 -->
+    <cover-image src="../../static/introduction2.png"/>
+</cover-view>
+
+<view id="map"	hidden="{{!showMap}}"> 
+	<template is="SimpleMap" data="{{...map}}"/>
+</view>

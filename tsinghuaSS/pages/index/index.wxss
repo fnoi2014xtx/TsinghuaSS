@@ -1,0 +1,19 @@
+.container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.jsdelivr.net/gh/fnoi2014xtx/TsinghuaSS@1.2/static/homepage.png);
+}
+.bottom {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  height: 15%;
+}
+.enter{
+  position:relative;
+  top:50%;
+  transform: translate(0,-50%);
+}

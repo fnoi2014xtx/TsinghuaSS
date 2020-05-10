@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="container2">
+    <view class="text">请输入您的自定义昵称</view>
+    <view class="bar">
+      <input type="string" placeholder="昵称" bindinput="bindKeyInput">
+      </input>
+      <view class="confirm" bindtap="onClick">
+        确认
+      </view>
+    </view>
+    <view class="text">或授权使用微信昵称用于生成海报</view>
+    <button size="default" type="default" plain="true" style="width:100%;border-radius: 1.5rem;font-size:1.3rem;border-color:rgb(113,197,244);color:rgb(113,197,244)" open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权</button>
+  </view>
+</view>

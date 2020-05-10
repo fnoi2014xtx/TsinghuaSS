@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="bottom">
+    <button class="enter" type="default" plain="true" style="width:93%;color:white;font-weight:bold;border-color:white;border-width:2px" bindtap="onClick">进入</button>
+  </view>
+</view>

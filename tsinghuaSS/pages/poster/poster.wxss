@@ -1,0 +1,32 @@
+page {
+  background-color: #EDEEF2;
+}
+
+.poste_box {
+  width: 700rpx;
+  margin: auto;
+  margin-top: 150rpx;
+  background-color: #fff;
+  border: 1rpx solid #ddd;
+  box-shadow: 0px 0px 10px 5px #D8D7DD;
+}
+
+.tips {
+  margin-top: 100rpx;
+  text-align: center;
+}
+
+.tips .saveBtn {
+  background: #5D138A;
+  border-radius: 45rpx;
+  padding: 12rpx 60rpx; 
+  color: white;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.tips .info{
+  opacity: 0.6;
+  font-size: 30rpx;
+  margin-top: 25rpx;
+}
